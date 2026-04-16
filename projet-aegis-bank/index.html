@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegis Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="header">
+
+    <!-- Burger menu 100% CSS avec checkbox -->
+    <input type="checkbox" id="burger-toggle" class="nav__burger-checkbox">
+   <label for="burger-toggle" class="nav__burger">
+        <span class="nav__burger-line"></span>
+    </label>
+
+    <!-- Logo de la marque -->
+    <span class="nav__logo-text">Aegis Bank</span>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Navigation principale">
+        <a href="#">Solutions Streamers</a>
+        <a href="#">Financement Créatifs</a>
+        <a href="#">Écosystème Pro</a>
+    </nav>
+
+    <!-- Boutons d'authentification -->
+    <div class="btns">
+        <button class="btn btn--signin">Se connecter</button>
+        <button class="btn btn--signup">S'inscrire</button>
+    </div>
+
+</header>
+
+<!-- ========== MAIN ========== -->
+<main class="main">
+
+    <!-- Section principale -->
+    <section class="hero" aria-label="Section Principale">
+
+        <!-- Contenu hero : titre, banderole, sous-titre, CTA -->
+        <div class="hero__content">
+
+            <!-- Titre principal — un seul h1 par page -->
+            <h1 class="hero__title">La néobanque éthique & transparente</h1>
+
+            <!-- Banderole promotionnelle sous le titre -->
+            <div class="hero__banderole" role="note" aria-label="Offre promotionnelle">
+                20€ offerts pour toute inscription avant le 31 mars 2026
+            </div>
+
+            <!-- Sous-titre accrocheur -->
+            <p class="hero__subtitle">Tes revenus de créateur, gérés en toute transparence. Zéro frais cachés, zéro revente de données.</p>
+
+            <!-- Bouton CTA principal -->
+            <a href="#" class="hero__cta">Téléchargez l'app</a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+
+    <!-- Réseaux sociaux -->
+    <div class="footer__socials">
+
+        <!-- Telegram -->
+        <a href="#" class="footer__social-link" aria-label="Telegram">
+            <svg class="footer__social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12,0C5.373,0,0,5.373,0,12s5.373,12,12,12s12-5.373,12-12S18.627,0,12,0z M17.562,8.161c-0.18,1.897-0.962,6.502-1.359,8.627c-0.168,0.9-0.5,1.201-0.82,1.23c-0.697,0.064-1.226-0.461-1.901-0.903c-1.056-0.692-1.653-1.123-2.678-1.799c-1.185-0.781-0.417-1.21,0.258-1.911c0.177-0.184,3.247-2.977,3.307-3.23c0.007-0.032,0.015-0.15-0.056-0.212s-0.174-0.041-0.248-0.024c-0.106,0.024-1.793,1.139-5.062,3.345c-0.479,0.329-0.913,0.489-1.302,0.481c-0.428-0.009-1.252-0.242-1.865-0.442c-0.751-0.244-1.349-0.374-1.297-0.788c0.027-0.216,0.324-0.437,0.892-0.663c3.498-1.524,5.831-2.529,6.998-3.015c3.333-1.386,4.025-1.627,4.477-1.635C17.472,7.214,17.608,7.681,17.562,8.161z"/>
+            </svg>
+        </a>
+
+        <!-- Mastodon -->
+        <a href="#" class="footer__social-link" aria-label="Mastodon">
+            <svg class="footer__social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.288-5.188C17.149-.024 14.997 0 12.977 0h-.054c-2.02 0-4.172-.024-5.003.125C5.197.703 2.93 2.735 2.58 5.313 2.275 7.755 2.275 10.184 2.58 12.626c.462 3.066 2.739 5.26 5.316 5.773 1.46.295 2.928.405 4.386.38 1.77-.028 3.531-.26 5.052-.8l-.057-1.279s-2.31.733-4.907.644c-2.572-.088-5.286-.277-5.701-3.45a6.29 6.29 0 0 1-.056-.76s2.525.617 5.718.68c1.956.035 3.794-.222 5.657-.435 3.574-.426 6.688-2.62 7.072-4.625.618-3.22.568-7.864.568-7.864zm-3.108 7.786c0 1.394-.017 2.543-.55 3.207-.793.993-2.17 1.05-3.193 1.05H12.5v-5.5h3.917c1.023 0 2.4.057 3.193 1.05.533.664.55 1.813.55 3.207v-3.014z"/>
+            </svg>
+        </a>
+
+        <!-- BlueSky -->
+        <a href="#" class="footer__social-link" aria-label="BlueSky">
+            <svg class="footer__social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.099.99.9 1.13.645 1.307.5 1.695.5 2.3c0 1.546.786 5.996 1.043 6.974.457 1.718 2.057 2.282 3.368 2.063 2.15-.36 4.15-.738 4.15-.738s-2.07.29-4.15.738c-1.311.22-2.911 1.063-3.368 2.063C1.286 14.4.5 18.85.5 20.396c0 .605.145.993.4 1.17.199.14 1.666.186 4.702-1.675 2.752-1.942 5.711-5.881 6.798-7.995 1.087 2.114 4.046 6.053 6.798 7.995 3.036 1.861 4.503 1.815 4.702 1.675.255-.177.4-.565.4-1.17 0-1.546-.786-5.996-1.043-6.974-.457-1.718-2.057-2.282-3.368-2.063-2.15.36-4.15.738-4.15.738s2.07-.29 4.15-.738c1.311-.22 2.911-1.063 3.368-2.063.257-.978 1.043-5.428 1.043-6.974 0-.605-.145-.993-.4-1.17-.199-.14-1.666-.186-4.702 1.675C16.046 4.747 13.087 8.686 12 10.8z"/>
+            </svg>
+        </a>
+
+    </div>
+
+    <!-- Liens légaux obligatoires -->
+    <div class="footer__legal">
+        <a href="#" class="footer__link">Mentions Légales</a>
+        <a href="#" class="footer__link">Politique de Confidentialité</a>
+        <a href="#" class="footer__link">Conditions d'Utilisation</a>
+    </div>
+
+</footer>
+
+</body>
+</html>
