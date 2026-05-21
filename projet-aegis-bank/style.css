@@ -6,14 +6,14 @@
 }
 
 :root {
-    /* Couleurs principales */
+   
     --color-primary: #0a0a0a;
     --color-secondary: #ff00aa;
     --color-accent: #9b59b6;
     --color-bg: #0a0a0a;
     --color-text: rgba(255, 255, 255, 0.65);
     --color-white: #ffffff;
-    /* Espacements standardisés */
+    
     --spacing-sm: 8px;
     --spacing-md: 16px;
     --spacing-lg: 24px;
@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     overflow: hidden;
 
-    /* Image de fond avec un dégradé sombre pour améliorer la lisibilité du texte */
+    
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.4)
