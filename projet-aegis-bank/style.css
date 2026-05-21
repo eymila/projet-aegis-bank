@@ -66,7 +66,7 @@ body {
     flex-shrink: 0;
 }
 
-/* Logo */
+
 .nav__logo-text {
     font-size: 1.5rem;
     font-weight: bold;
@@ -74,12 +74,12 @@ body {
     letter-spacing: 1px;
 }
 
-/* Checkbox cachée */
+
 .nav__burger-checkbox {
     display: none;
 }
 
-/* Navigation Desktop */
+
 .nav {
     display: flex;
     align-items: center;
@@ -97,7 +97,7 @@ body {
     color: var(--color-secondary);
 }
 
-/* Bouton burger - caché par défaut sur desktop */
+
 .nav__burger {
     display: none;
     background: none;
@@ -135,7 +135,7 @@ body {
     top: 8px;
 }
 
-/* Animation du burger quand ouvert */
+/* Animation de l'ouverture du burger */
 .nav__burger-checkbox:checked + .nav__burger .nav__burger-line {
     background: transparent;
 }
@@ -188,7 +188,7 @@ body {
     cursor: pointer;
 }
 
-/* ================== MAIN - prend l'espace restant ================== */
+/* ================== MAIN ================== */
 main {
     flex: 1;
     min-height: 0;
@@ -321,7 +321,7 @@ main {
         min-height: 5rem;
     }
 
-    /* Le burger s'affiche uniquement sur mobile */
+    
     .nav__burger {
         display: block;
         order: 1;
@@ -356,12 +356,12 @@ main {
         border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    /* Quand la checkbox est cochée, le menu s'affiche */
+    
     .nav__burger-checkbox:checked ~ .nav {
         display: flex;
     }
 
-    /* Pour que le label fonctionne correctement avec le ~ */
+    
     .nav__burger-checkbox {
         position: absolute;
         opacity: 0;
